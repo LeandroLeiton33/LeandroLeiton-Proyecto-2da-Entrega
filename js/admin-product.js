@@ -180,10 +180,10 @@ const editarProducto = function (idRecibido) {
 };
 
 btnCancelar.addEventListener("click", () => {
+  console.log(btnCancelar)
   btn.innerText = "Agregar producto";
   btn.classList.remove("btn-success");
   formularioProductoHTML.reset();
-  el.titulo.focus();
   
 });
 

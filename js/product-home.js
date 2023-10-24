@@ -34,7 +34,6 @@ productosCard.forEach((prod) => {
 const idProductoPrincipal = (idAPintar) => {
     const productoPrincipal = productosCard.find((producto) => producto.id === idAPintar);
     
-    // Almacena el producto principal en localStorage
     localStorage.setItem("productoPrincipal", JSON.stringify(productoPrincipal));
 
 };
