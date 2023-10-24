@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neo 3D</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!--  ? ================================== HEADER =========================================== -->
+    <header class="main-header sticky-top z-3">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html"
+            ><img
+              class="logo"
+              src="/assets/img/img-neo-footer.png"
+              alt="logo Neo 3D"
+          /></a>
+          <button
+            class="navbar-toggler nav-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="main-button"><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul id="nav-list" class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/registro.html">Registro</a>
+              </li>
+            </ul>
+            <div class="main-user">
+              <div class="d-flex text-white">
+                <div id="user-header-name"></div>
+
+                <div id="user-action"></div>
+              </div>
+
+              <!-- ?------ icono carrito de compras ----->
+              <div class="icon-shop">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <!-- ?------ icono carrito de compras ----->
+
+              <!--?-------- boton login ------------->
+              <div id="btn-action">
+                <a id="btn-login" class="icon-shop" href="/pages/login.html"
+                  >Login</a
+                >
+              </div>
+              <!--?-------- boton login ------------->
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+        <!-- Product section-->
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 my-5 text-white">
+                <div id="pagina-producto" class="row gx-4 gx-lg-5 align-items-center">
+<!--                     <div class="col-md-6"><img id="imagen-producto" class="card-img-top mb-5 mb-md-0" src="https://http2.mlstatic.com/D_NQ_NP_819223-MLA72366524529_102023-O.webp" alt="..." /></div>
+                    <div  class="col-md-6">
+                        <h1 id="titulo-producto" class="display-5 fw-bolder">Nombre del producto</h1>
+                        <div class="fs-5 mb-5">
+                            <p id="precio-producto" >$4000</p>
+                        </div>
+                        <p id="descripcion-producto" class="lead">Descripcion del producto</p>
+                        <div class="d-flex">
+                            <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
+                            <button class="btn btn-outline-light flex-shrink-0" type="button">
+                                <i class="bi-cart-fill me-1"></i>
+                                Agregar al carrito
+                            </button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--?---------- Prodcutos realacionados--------------------->
+        
+            <div class="container px-4 px-lg-5 mt-4 mb-5">
+                <h2 class="fw-bolder mb-4 text-white" >Productos relacionados</h2>
+                <section id="card-relacionados" class="card-container">
+
+             </section>
+            </div>
+      
+    <!--! ---------------------------------------------FOOTER-------------------------------------------------- -->
+    <footer>
+      <div class="container-footer">
+        <div class="redes-footer element-footer">
+          <div class="order">
+            <div class="item-redes-footer">
+              <a
+                class="insta"
+                href="https://www.instagram.com/neo3d_jujuy/"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <p>Instagram</p>
+            </div>
+            <div class="item-redes-footer">
+              <a
+                class="face"
+                href="https://www.facebook.com/neo3d.impresion"
+                target="_blank"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <p>Facebook</p>
+            </div>
+            <div class="item-redes-footer">
+              <a
+                class="tiktok"
+                href="https://www.tiktok.com/@neo3djujuy?_t=8fEcyOn7XmA&_r=1"
+                target="_blank"
+                ><i class="fa-brands fa-tiktok"></i
+              ></a>
+              <p>TikTok</p>
+            </div>
+          </div>
+        </div>
+        <div class="logo-footer element-footer">
+          <img src="/assets/img/img-neo-footer.png" alt="logo Neo 3D" />
+        </div>
+        <div class="info-footer element-footer">
+          <div class="order">
+            <div class="contacto-footer">
+              <h4>Contacto:</h4>
+              <p>3884454214</p>
+              <p>3885018347</p>
+            </div>
+            <div class="horarios-footer">
+              <h4>Horarios:</h4>
+              <p>09:00 a 13:00</p>
+              <p>17:00 a 21:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!--! ---------------------------------------------FOOTER-------------------------------------------------- -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/usuario-logeado.js"></script>
+    <!-- <script src="/js/product-home.js"></script> -->
+    <script src="/js/product-principal.js"></script>
+    <!-- <script src=" /js/admin-product.js"></script> -->
+  </body>
+</html>
